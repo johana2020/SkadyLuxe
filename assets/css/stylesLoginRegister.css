@@ -82,3 +82,13 @@
     border-left: 1px solid #ccc;
 }
 
+.login-form a {
+    color: red;
+    font-size: 12px;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+
+
