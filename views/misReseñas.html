@@ -39,26 +39,52 @@
   </li> </div>
 </nav>
 
+  <div class="container col-md-6 mx-auto mt-5">
+    <div class="title">
+        <h1>Deja tu reseña</h1>
+    </div>
+    <div class="form">
+        <p>Califica tu experiencia con SkadyLuxe usando las estrellas y escribe tu opinión sobre el servicio y la calidad de las joyas.</p>
+        <form method="post" action="./editarReseña.html">
+            
+            <div class="rating">
+                <input type="radio" id="star1" name="rating" value="1" checked><label for="star1">★</label>
+                <input type="radio" id="star2" name="rating" value="2"><label for="star2">★</label>
+                <input type="radio" id="star3" name="rating" value="3"><label for="star3">★</label>
+                <input type="radio" id="star4" name="rating" value="4"><label for="star4">★</label>
+                <input type="radio" id="star5" name="rating" value="5"><label for="star5">★</label>
+            </div>
+
+            <!-- <textarea name="review" placeholder="Escribe tu reseña aquí..." required></textarea> -->
+            <p>Este es el texto de ejemplo de la reseña 1</p>
+            <button type="submit" class="btn btn-secondary">Editar</button>
+        </form>
+    </div>
+  </div>
+
+
+
     <div class="container col-md-6 mx-auto mt-5">
         <div class="title">
             <h1>Deja tu reseña</h1>
         </div>
         <div class="form">
-            <p>Califica tu experiencia con SkadyLuxe usando las estrellas y escribe tu opinión sobre el servicio y la calidad de las joyas.</p>
-            <form method="post">
-                
-                <div class="rating">
-                    <input type="radio" id="star1" name="rating" value="1" checked><label for="star1">★</label>
-                    <input type="radio" id="star2" name="rating" value="2"><label for="star2">★</label>
-                    <input type="radio" id="star3" name="rating" value="3"><label for="star3">★</label>
-                    <input type="radio" id="star4" name="rating" value="4"><label for="star4">★</label>
-                    <input type="radio" id="star5" name="rating" value="5"><label for="star5">★</label>
-                </div>
-
-                <textarea name="review" placeholder="Escribe tu reseña aquí..." required></textarea>
-                <button type="submit" value="Enviar">Enviar</button>
-            </form>
-        </div>
+          <p>Califica tu experiencia con SkadyLuxe usando las estrellas y escribe tu opinión sobre el servicio y la calidad de las joyas.</p>
+          <form method="post" action="./editarReseña.html">
+              
+              <div class="rating">
+                  <input type="radio" id="star1" name="rating" value="1" checked><label for="star1">★</label>
+                  <input type="radio" id="star2" name="rating" value="2"><label for="star2">★</label>
+                  <input type="radio" id="star3" name="rating" value="3"><label for="star3">★</label>
+                  <input type="radio" id="star4" name="rating" value="4"><label for="star4">★</label>
+                  <input type="radio" id="star5" name="rating" value="5"><label for="star5">★</label>
+              </div>
+  
+              <!-- <textarea name="review" placeholder="Escribe tu reseña aquí..." required></textarea> -->
+              <p>Este es el texto de ejemplo de la reseña 1</p>
+              <button type="submit" class="btn btn-secondary">Editar</button>
+          </form>
+      </div>
     </div>
 
     <footer class="footer-personalizado">

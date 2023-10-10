@@ -78,3 +78,14 @@
 .rating label:hover ~ label {
     color: #ff0; /* define el color de las estrellas con hover o que preceden a una con hover */
 }
+
+.footer-personalizado {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .linea-personalizada {
+    border: 3px solid #730A23;
+  }
+  

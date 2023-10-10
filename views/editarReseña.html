@@ -39,9 +39,10 @@
   </li> </div>
 </nav>
 
+<h1>jbkajgbkajbgakjdgbjak</h1>
     <div class="container col-md-6 mx-auto mt-5">
         <div class="title">
-            <h1>Deja tu reseña</h1>
+            <h1>Edita tu reseña</h1>
         </div>
         <div class="form">
             <p>Califica tu experiencia con SkadyLuxe usando las estrellas y escribe tu opinión sobre el servicio y la calidad de las joyas.</p>
@@ -55,11 +56,16 @@
                     <input type="radio" id="star5" name="rating" value="5"><label for="star5">★</label>
                 </div>
 
-                <textarea name="review" placeholder="Escribe tu reseña aquí..." required></textarea>
-                <button type="submit" value="Enviar">Enviar</button>
+                <!-- <textarea name="review" placeholder="Escribe tu reseña aquí..." required></textarea> -->
+                <label for="fecha"><strong>Ingrese la edición de su reseña:</strong></label>
+                <br>
+                <textarea name="review" placeholder="texto de ejemplo que será editado" required></textarea>
+                <button type="submit" value="Enviar" onclick="location.href='./misReseñas.html'">Guardar</button>
             </form>
         </div>
     </div>
+
+
 
     <footer class="footer-personalizado">
       <hr class="linea-personalizada">
@@ -76,7 +82,7 @@
           </div>
           <div class="col-4">
             <p>¿Tienes alguna pregunta o sugerencia?</p>
-            <a href="contacto.html">Contáctanos aquí</a>
+            <a href="./contact.html">Contáctanos aquí</a>
           </div>
         </div>
       </div>

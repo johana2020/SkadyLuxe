@@ -45,3 +45,13 @@
 .form p {
     font-size: 16px; /* agrega esta línea para cambiar el tamaño de la letra */
 }
+.footer-personalizado {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+  .linea-personalizada {
+    border: 3px solid #730A23;
+  }
+  

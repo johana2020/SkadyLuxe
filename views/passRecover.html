@@ -9,25 +9,7 @@
     <link rel="stylesheet" href="../assets/css/stylesrecov.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-fixed-top bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">SkadyLuxe</a>
-    <ul class="nav nav-underline">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Usuario</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Contacto</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Me gusta</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Cotización</a>
-        </li>
-      </ul>
-      </div>
-      </nav>
+
 
     <div class="container col-md-6 mx-auto mt-5">
         <div class="title">
@@ -35,11 +17,33 @@
         </div>
         <div class="form">
             <p>Ingresa tu correo electrónico y te enviaremos un enlace para restablecer tu contraseña.</p>
-            <form action="enviar.php" method="post">
+            <form method="post">
                 <input type="email" name="email" placeholder="Correo electrónico" required class="mb-3">
-                <button type="submit">Enviar</button>
+                <button type="submit" onclick="location.href='./provisionalThanks.html'">Enviar</button>
+                <button type="submit" onclick="location.href='./inicioSesionRegistro.html'">Volver</button>
             </form>
         </div>
     </div>
+
+    <footer class="footer-personalizado">
+      <hr class="linea-personalizada">
+      <div class="container">
+        <div class="row">
+          <div class="col-4">
+            <p>Síguenos en nuestras redes sociales:</p>
+            <a href="#" target="_blank"><img src="../assets/img/mail.svg" style="width: 40px; margin: 5px;"></a>
+            <a href="#" target="_blank"><img src="../assets/img/insta.svg" style="width: 40px; margin: 5px;"></a>
+            <a href="#" target="_blank"><img src="../assets/img/wa.svg" style="width: 40px; margin: 5px;"></a>
+          </div>
+          <div class="col-4">
+            <!-- Espacio vacío -->
+          </div>
+          <div class="col-4">
+            <p>¿Tienes alguna pregunta o sugerencia?</p>
+            <a href="../views/contact.html">Contáctanos aquí</a>
+          </div>
+        </div>
+      </div>
+    </footer>
 </body>
 </html>
