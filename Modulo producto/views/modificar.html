@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar producto</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container mt-5">
+    <h2>Modificar Producto </h2>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="imagen">Imagen del Producto:</label>
+                <input type="file" class="form-control-file" id="imagen" name="imagen" accept="image/*">
+            </div>
+            <button type="submit" class="btn btn-primary">Modificar</button>
+            <img src="../assets/img/A1 (3).jpeg" class="card-img-top" height="">
+            <div class="form-group">
+                <label for="Estado">Estado:</label>
+                <select class="form-control" id="categoria" name="categoria">
+                    <option value="Disponible">Disponible </option>
+                    <option value="No Disponible">No Disponible </option>
+                    
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Modificar</button>
+        </div>
+
+        <div class="col-md-6">
+            <form>
+                <div class="form-group">
+                    <label for="categoria">Categoría:</label>
+                    <select class="form-control" id="categoria" name="categoria">
+                        <option value="Anillos">Anillos</option>
+                        <option value="Cadenas">Cadenas</option>
+                        <option value="Pulseras">Pulseras</option>
+                        <option value="arete">Dijes</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary">Modificar</button>
+                <div class="form-group">
+                    <label for="nombre">Nombre del Producto:</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Modificar</button>
+                <div class="form-group">
+                    <label for="precio">Precio:</label>
+                    <input type="number" class="form-control" id="precio" name="precio" step="0.01" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Modificar</button>
+                <div class="form-group">
+                    <label for="descripcion">Descripción:</label>
+                    <textarea class="form-control" id="descripcion" name="descripcion" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Modificar</button>
+                <a href="./Catalogo_completo.html" class="btn btn-success">Volver al catalogo</a>
+            </form>
+        </div>
+    </div>
+</div>
+</body>
+</html>
